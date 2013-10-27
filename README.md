@@ -1,4 +1,4 @@
 playground
 ==========
 
-Bits and Pieces
+Bits and Pieces. Small utils and tests, basically for learning purposes.

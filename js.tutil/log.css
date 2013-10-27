@@ -1,0 +1,19 @@
+#LOG-CONTAINER {
+}
+
+#LOG-ELEMENT {
+	display: block;
+	background-color: #FED;
+	padding: 2mm;
+	width: 800px;
+	margin: 4mm;
+	font-size: 4mm;
+	position: fixed;
+	bottom: 0px;
+	height: 25%;
+	overflow: auto;
+	border-style: solid;
+	border-radius: 4mm;
+	border-width: 2px;
+	border-color: black;
+}
