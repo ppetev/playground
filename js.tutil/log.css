@@ -1,19 +1,33 @@
 #LOG-CONTAINER {
+	display: block;
+	position: fixed;
+	background-color: #F0E0C0;
+	padding: 5px;
+	width: calc(100% - 32px);
+	margin: 10px;
+	bottom: 0px;
+	height: 100px;
+	overflow: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 50%;
+	border-collapse: collapse;
 }
 
 #LOG-ELEMENT {
-	display: block;
-	background-color: #FED;
-	padding: 2mm;
-	width: 800px;
-	margin: 4mm;
-	font-size: 4mm;
-	position: fixed;
-	bottom: 0px;
-	height: 25%;
-	overflow: auto;
+	padding: 0;
+	margin: 0;
+}
+#LOG-ELEMENT td {
+	padding: 2px;
+	font-family: consolas, monospace;
+}
+
+#LOG-ELEMENT, #LOG-ELEMENT td, #LOG-ELEMENT tr {
+	margin: 0;
 	border-style: solid;
-	border-radius: 4mm;
-	border-width: 2px;
-	border-color: black;
+	border-width: 1px;
+	border-color: #D0C0A0;
+	border-collapse: collapse;
 }
